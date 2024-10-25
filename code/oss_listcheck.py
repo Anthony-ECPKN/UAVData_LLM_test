@@ -4,8 +4,8 @@ import time
 check_period = 5
 
 # 1. 配置你的阿里云 OSS 账户信息
-access_key_id = 'LTAI5tA7GQs9zJp1v7WQ6hpq'  # 替换为你的 Access Key ID
-access_key_secret = 'ZdpTuDO7JVc80lOoEb5C2a6DSt1Wra'  # 替换为你的 Access Key Secret
+access_key_id = 'your_access_key'  # 替换为你的 Access Key ID
+access_key_secret = 'your_access_key_secret'  # 替换为你的 Access Key Secret
 bucket_name = 'hkustgz-uavai-datatest'  # 替换为你的 Bucket 名称
 endpoint = 'oss-cn-beijing.aliyuncs.com'  # 替换为你的 Endpoint，例如 'http://oss-cn-hangzhou.aliyuncs.com'
 
