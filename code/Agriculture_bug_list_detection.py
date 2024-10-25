@@ -9,7 +9,7 @@ import os
 import oss2
 
 def process_image_urls_to_json(url_file_name, output_folder):
-    client = ZhipuAI(api_key="e7cb4f57c94a8bbe9bb600a78fd0933d.00bhOFe4NY3t8ES9")  # 填写您自己的APIKey
+    client = ZhipuAI(api_key="your_key")  # 填写您自己的APIKey
 
     # 读取URL
     with open(url_file_name, 'r') as f:
