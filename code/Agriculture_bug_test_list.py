@@ -2,7 +2,7 @@ import json
 from zhipuai import ZhipuAI
 from datetime import datetime
 
-client = ZhipuAI(api_key="e7cb4f57c94a8bbe9bb600a78fd0933d.00bhOFe4NY3t8ES9")  # 填写您自己的APIKey
+client = ZhipuAI(api_key="your_key")  # 填写您自己的APIKey
 
 # 读取URL
 url_file_name = 'object_urls_all.txt'
